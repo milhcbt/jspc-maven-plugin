@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.leonard.maven.plugins</groupId>
   <artifactId>jspc-maven-plugin</artifactId>
-  <version>4.2.2-SNAPSHOT</version>
+  <version>5.0.0</version>
   <packaging>maven-plugin</packaging>
   <name>JSPC Maven Plugin</name>
 
@@ -32,7 +32,7 @@
     <maven.plugin.reporting.plugin.version>3.13.1</maven.plugin.reporting.plugin.version>
     <maven.project.info.reports.plugin.version>3.6.2</maven.project.info.reports.plugin.version>
     <maven.version>3.9.8</maven.version>
-    <java.compilation.level>11</java.compilation.level>
+    <java.compilation.level>21</java.compilation.level>
     <tomcat.version>10.1.26</tomcat.version>
     <maven.compiler.source>${java.compilation.level}</maven.compiler.source>
     <maven.compiler.target>${java.compilation.level}</maven.compiler.target>
@@ -268,7 +268,7 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
         <version>3.2.4</version>
@@ -281,7 +281,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-invoker-plugin</artifactId>
